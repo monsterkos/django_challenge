@@ -103,8 +103,8 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
             "HOST":"airbnb-clone.ccbh8epimdms.ap-northeast-2.rds.amazonaws.com",
-            'NAME': "airbnb-clone",
-            "USER":"postgresql",
+            'NAME': "postgres",
+            "USER":"postgres",
             'PASSWORD':"rnjsdhtjd2",
             "PORT":"5432",
         }
